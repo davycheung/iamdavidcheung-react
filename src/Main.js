@@ -8,8 +8,9 @@ function Main() {
             <Homer />
             <h1 className="cover-heading">Hi, I'm David.</h1>
             <p>
-                I'm a software engineer in NYC, passionate about building
-                products, developing teams, learning, and mentoring engineers.
+                I'm a software engineer in <strong>New York</strong>, passionate
+                about building products, developing teams, learning, and
+                mentoring engineers.
             </p>
             <p>
                 <a className="btn-icon" href="https://github.com/davycheung">

@@ -19,6 +19,15 @@ a:hover {
     border: 0.05rem solid #fff;
 }
 
+/* font awesome icons */
+.btn-icon,
+.btn-icon:hover,
+.btn-icon:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+    background-color: #fff;
+}
+
 /*
  * Base structure
  */
@@ -70,8 +79,8 @@ body {
 }
 
 .nav-masthead .active {
-    color: #fff;
-    border-bottom-color: #fff;
+    color: #000;
+    border-bottom-color: #000;
 }
 
 @media (min-width: 48em) {

@@ -38,7 +38,7 @@ function Main() {
                 </a>
                 &nbsp; &nbsp;
                 <a className="btn-icon" href="mailto:realdavidcheung@gmail.com">
-                    <i class="fas fa-envelope-square fa-lg"></i>
+                    <i class="fas fa-envelope"></i>
                 </a>
                 &nbsp; &nbsp;
             </p>

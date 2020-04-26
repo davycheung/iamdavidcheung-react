@@ -2,12 +2,14 @@ import React from "react";
 import "./App.css";
 import Footer from "./Footer";
 import Header from "./Header";
+import Homer from "./Homer";
 
 function App() {
     return (
         <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <Header />
-            <main role="main" className="inner cover">
+            <main role="main" className="inner cover text-center">
+                <Homer />
                 <h1 className="cover-heading">Hi, I'm David.</h1>
                 <p className="lead">
                     I'm a software engineer in NYC, I am passionate about

@@ -1,4 +1,5 @@
 import React from "react";
+import { Switch, Route } from "react-router-dom";
 import "./styles/App.css";
 import "./styles/Homer.css";
 import Footer from "./components/Footer";
@@ -9,7 +10,9 @@ function App() {
     return (
         <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <Header />
-            <Main />
+            <Switch>
+                <Route path="/" component={Main} />
+            </Switch>
             <Footer />
         </div>
     );

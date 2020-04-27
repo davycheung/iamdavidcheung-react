@@ -13,32 +13,32 @@ function Main() {
             </p>
             <p>
                 <a className="btn-icon" href="https://github.com/davycheung">
-                    <i class="fab fa-github fa-lg"></i>
+                    <i class="fab fa-github fa-2x"></i>
                 </a>
                 &nbsp; &nbsp;
                 <a
                     className="btn-icon"
                     href="https://www.linkedin.com/in/davycheung/"
                 >
-                    <i class="fab fa-linkedin-in fa-lg"></i>
+                    <i class="fab fa-linkedin-in fa-2x"></i>
                 </a>
                 &nbsp; &nbsp;
                 <a
                     className="btn-icon"
                     href="https://www.instagram.com/realdavidcheung"
                 >
-                    <i class="fab fa-instagram fa-lg"></i>
+                    <i class="fab fa-instagram fa-2x"></i>
                 </a>
                 &nbsp; &nbsp;
                 <a
                     className="btn-icon"
                     href="https://www.last.fm/user/supperdaves/listening-report/year"
                 >
-                    <i class="fab fa-lastfm fa-lg"></i>
+                    <i class="fab fa-lastfm fa-2x"></i>
                 </a>
                 &nbsp; &nbsp;
                 <a className="btn-icon" href="mailto:realdavidcheung@gmail.com">
-                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-envelope fa-2x"></i>
                 </a>
                 &nbsp; &nbsp;
             </p>

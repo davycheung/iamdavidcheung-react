@@ -10,8 +10,7 @@ function Header() {
             <div className="inner">
                 <span className="masthead-brand">
                     <span>
-                        <img className="brand" src="/favicon.ico" />
-                        &nbsp;
+                        <img className="brand" src="/favicon.ico" />{" "}
                     </span>
                     <span>
                         david<strong>cheung</strong>

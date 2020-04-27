@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 const { useState } = React;
 
 function Header() {
-    const [activeNav, setActiveNav] = useState("home");
+    const [activeNav, setActiveNav] = useState(
+        window.location.pathname ? window.location.pathname : "/"
+    );
 
     return (
         <header className="masthead mb-auto">
@@ -20,19 +22,19 @@ function Header() {
                 <nav className="nav nav-masthead justify-content-center">
                     <Link
                         className={`nav-link ${
-                            activeNav === "home" ? "active" : ""
+                            activeNav === "/" ? "active" : ""
                         }`}
                         to="/"
-                        onClick={() => setActiveNav("home")}
+                        onClick={() => setActiveNav("/")}
                     >
                         Home
                     </Link>
                     <Link
                         className={`nav-link ${
-                            activeNav === "about" ? "active" : ""
+                            activeNav === "/about" ? "active" : ""
                         }`}
                         to="/about"
-                        onClick={() => setActiveNav("about")}
+                        onClick={() => setActiveNav("/about")}
                     >
                         About
                     </Link>

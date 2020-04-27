@@ -1,5 +1,4 @@
 import React from "react";
-import "./Homer.css";
 
 function Homer() {
     return (

@@ -1,6 +1,5 @@
 import React from "react";
 import Homer from "./Homer";
-import "./App.css";
 
 function Main() {
     return (

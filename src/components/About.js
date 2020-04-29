@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <main role="main" className="inner cover text-left">
+        <div>
             <h1 className="cover-heading">About</h1>
             <p>
                 Engineering Lead at{" "}
@@ -26,7 +26,7 @@ function About() {
                 When not working you can find me at a variety of meetups,
                 hiking, reading, and otherwise enjoying life.
             </p>
-        </main>
+        </div>
     );
 }
 

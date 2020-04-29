@@ -1,9 +1,9 @@
 import React from "react";
 import Homer from "./Homer";
 
-function Main() {
+function Home() {
     return (
-        <main role="main" className="inner cover text-center">
+        <div>
             <Homer />
             <h1 className="cover-heading">Hi, I'm David.</h1>
             <p>
@@ -42,8 +42,8 @@ function Main() {
                 </a>
                 &nbsp; &nbsp;
             </p>
-        </main>
+        </div>
     );
 }
 
-export default Main;
+export default Home;

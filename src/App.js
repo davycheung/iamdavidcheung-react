@@ -5,16 +5,18 @@ import "./styles/Homer.css";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Main from "./components/Main";
+import Home from "./components/Home";
 
 function App() {
     return (
         <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <Header />
-            <Switch>
-                <Route path="/" component={Main} exact />
-                <Route path="/about" component={About} />
-            </Switch>
+            <main role="main" className="inner cover text-center">
+                <Switch>
+                    <Route path="/" component={Home} exact />
+                    <Route path="/about" component={About} />
+                </Switch>
+            </main>
             <Footer />
         </div>
     );

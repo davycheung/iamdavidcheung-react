@@ -9,7 +9,7 @@ function Header() {
 
     return (
         <header className="masthead mb-auto">
-            <div className="inner">
+            <div>
                 <span className="masthead-brand">
                     <span>
                         <img className="brand" src="/favicon.ico" />{" "}

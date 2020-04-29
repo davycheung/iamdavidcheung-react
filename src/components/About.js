@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <div>
+        <div className="text-left">
             <h1 className="cover-heading">About</h1>
             <p>
                 Engineering Lead at{" "}

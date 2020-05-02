@@ -32,7 +32,7 @@ function Home() {
                 &nbsp; &nbsp;
                 <a
                     className="btn-icon"
-                    href="https://www.last.fm/user/supperdaves/listening-report/year"
+                    href="https://www.last.fm/user/supperdaves/listening-report/week"
                 >
                     <i className="fab fa-lastfm fa-2x"></i>
                 </a>

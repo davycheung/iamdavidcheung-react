@@ -6,6 +6,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Reading from "./components/Reading";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Switch>
                     <Route path="/" component={Home} exact />
                     <Route path="/about" component={About} />
+                    <Route path="/reading" component={Reading} />
                 </Switch>
             </main>
             <Footer />

@@ -3,7 +3,7 @@ import React from "react";
 function About() {
     return (
         <div className="text-left">
-            <h1 className="cover-heading">About</h1>
+            <h1 className="mb-3 cover-heading">About</h1>
             <p>
                 Engineering Lead at{" "}
                 <a href="http://www.climbcredit.com">Climb Credit</a>, helping

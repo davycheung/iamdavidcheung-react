@@ -12,7 +12,7 @@ module.exports = {
             time_updated: "1588253376",
             time_read: "0",
             time_favorited: "0",
-            sort_id: 2,
+            sort_id: 3,
             resolved_title: "Software Folklore",
             resolved_url: "http://beza1e1.tuxen.de/lore/index.html",
             excerpt:
@@ -39,7 +39,7 @@ module.exports = {
             time_updated: "1588205171",
             time_read: "0",
             time_favorited: "0",
-            sort_id: 6,
+            sort_id: 7,
             resolved_title: "Lencioni’s 5 Dysfunctions of a Team",
             resolved_url:
                 "https://medium.com/taskworld-blog/lencionis-5-dysfunctions-of-a-team-330d58b2cd81",
@@ -70,7 +70,7 @@ module.exports = {
             time_updated: "1588257571",
             time_read: "0",
             time_favorited: "0",
-            sort_id: 5,
+            sort_id: 6,
             resolved_title:
                 "How to Exhibit Leadership as an Individual Contributor",
             resolved_url:
@@ -88,6 +88,35 @@ module.exports = {
                 "https://www.tombartel.me/images/posts/woman-explaining-laptop.jpg",
             listen_duration_estimate: 1166,
         },
+        "2682112799": {
+            item_id: "2682112799",
+            resolved_id: "2682112799",
+            given_url:
+                "https://blog.bitsrc.io/making-api-calls-with-react-hooks-748ebfc7de8c",
+            given_title: "Making API Calls with React Hooks - Bits and Pieces",
+            favorite: "0",
+            status: "0",
+            time_added: "1588964112",
+            time_updated: "1589073914",
+            time_read: "0",
+            time_favorited: "0",
+            sort_id: 1,
+            resolved_title: "Making API Calls with React Hooks",
+            resolved_url:
+                "https://blog.bitsrc.io/making-api-calls-with-react-hooks-748ebfc7de8c",
+            excerpt:
+                "With the new updates coming up in the React library, it's indeed impossible to use all the new React features in your application. It’s been 6 months since the official release of React Hooks which was released with React 16.8.0 (February 6, 2019)",
+            is_article: "1",
+            is_index: "0",
+            has_video: "0",
+            has_image: "1",
+            word_count: "815",
+            lang: "en",
+            time_to_read: 4,
+            top_image_url:
+                "https://miro.medium.com/max/1024/1*7fOjnGrHXIwWXvaFzz7AFA.jpeg",
+            listen_duration_estimate: 315,
+        },
         "2964373199": {
             item_id: "2964373199",
             resolved_id: "2964373199",
@@ -100,7 +129,7 @@ module.exports = {
             time_updated: "1588205152",
             time_read: "0",
             time_favorited: "0",
-            sort_id: 4,
+            sort_id: 5,
             resolved_title: "mars/heroku-nextjs : Buildpacks : Heroku Elements",
             resolved_url:
                 "https://elements.heroku.com/buildpacks/mars/heroku-nextjs",
@@ -126,7 +155,7 @@ module.exports = {
             time_updated: "1588205114",
             time_read: "0",
             time_favorited: "0",
-            sort_id: 3,
+            sort_id: 4,
             resolved_title: "Why Segment Went Back to a Monolith",
             resolved_url: "http://news.ycombinator.com/item?id=23017160",
             excerpt:
@@ -154,7 +183,7 @@ module.exports = {
             time_updated: "1588635439",
             time_read: "0",
             time_favorited: "0",
-            sort_id: 1,
+            sort_id: 2,
             resolved_title:
                 "The Pandemic May Mean the End of the Open-Floor Office",
             resolved_url:
@@ -175,34 +204,34 @@ module.exports = {
             domain_metadata: [Object],
             listen_duration_estimate: 535,
         },
-        "2973091949": {
-            item_id: "2973091949",
-            resolved_id: "2973091949",
-            given_url:
-                "https://techmanagement.life/2020/04/14/why-human-connection-matters-in-management/",
-            given_title: "",
+        "2978373610": {
+            item_id: "2978373610",
+            resolved_id: "2514879305",
+            given_url: "https://link.medium.com/qvWPMsdom6",
+            given_title: "“Unit Testing React Components”",
             favorite: "0",
             status: "0",
-            time_added: "1588673925",
-            time_updated: "1588673936",
+            time_added: "1589069295",
+            time_updated: "1589073902",
             time_read: "0",
             time_favorited: "0",
             sort_id: 0,
-            resolved_title: "Why Human Connection Matters in Management",
+            resolved_title: "Unit Testing React Components",
             resolved_url:
-                "https://techmanagement.life/2020/04/14/why-human-connection-matters-in-management/",
+                "https://medium.com/javascript-scene/unit-testing-react-components-aeda9a44aae2",
             excerpt:
-                "Now, perhaps more than ever, is the time to practice that human connection in your digital workplace.To many, this might not be news. But in light of the current coronavirus pandemic, one thing has become even clearer than it was – we need human connection to work effectively.",
+                "Unit testing is a great discipline which can lead to 40%-80% reductions in production bug density. Unit testing also has several other important benefits: But some things are easier to unit test than others.",
             is_article: "1",
             is_index: "0",
             has_video: "0",
             has_image: "1",
-            word_count: "967",
+            word_count: "2813",
             lang: "en",
-            time_to_read: 4,
+            time_to_read: 13,
             top_image_url:
-                "https://techmanagement.life/wp-content/uploads/2020/04/Human-Connection-In-Management.png",
-            listen_duration_estimate: 374,
+                "https://miro.medium.com/max/1200/1*RzR_S8UJeDn0b_sEQa2V8Q.jpeg",
+            domain_metadata: [Object],
+            listen_duration_estimate: 1089,
         },
     },
 };

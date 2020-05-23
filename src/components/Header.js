@@ -38,15 +38,6 @@ function Header() {
                     >
                         About
                     </Link>
-                    <Link
-                        className={`nav-link ${
-                            activeNav === "/reading" ? "active" : ""
-                        }`}
-                        to="/reading"
-                        onClick={() => setActiveNav("/reading")}
-                    >
-                        Reading
-                    </Link>
                 </nav>
             </div>
         </header>
